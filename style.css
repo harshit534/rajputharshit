@@ -1,0 +1,37 @@
+table
+{
+	width: 100%;
+}
+table,td,th{
+	border: 2px solid blue;
+	border-collapse: collapse;
+	background-color: black;
+}
+td,th{
+	padding: 10px 60px;
+	color: white;
+}
+tr:mth-child(even)
+{
+	background: white;
+}
+tr:hover
+{
+	background: red;
+	color: white;
+}
+
+h1 {
+	margin-left: 300px;
+	color: red;
+}
+
+h2 {
+	color: red;
+	margin-left: 450px;
+}
+
+.container {
+	color: blue;
+	background: red;
+}
